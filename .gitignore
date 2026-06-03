@@ -1,0 +1,44 @@
+# Qt build artifacts
+*.o
+*.obj
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+Makefile
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+
+# Build directories
+build/
+build-*/
+release/
+debug/
+*-build/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+IndustrialSensorMonitor
+
+# Logs generated at runtime
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
